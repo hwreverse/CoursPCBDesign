@@ -1,0 +1,78 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Notre Premier Projet"
+Date "08.05.2020"
+Rev "1.0"
+Comp ""
+Comment1 "[alexx#004]"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D1
+U 1 1 5EB7640F
+P 4350 3500
+F 0 "D1" H 4343 3245 50  0000 C CNN
+F 1 "Led Bleue" H 4343 3336 50  0000 C CNN
+F 2 "" H 4350 3500 50  0001 C CNN
+F 3 "~" H 4350 3500 50  0001 C CNN
+	1    4350 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5EB78021
+P 4850 3500
+F 0 "R1" V 4643 3500 50  0000 C CNN
+F 1 "330R" V 4734 3500 50  0000 C CNN
+F 2 "" V 4780 3500 50  0001 C CNN
+F 3 "~" H 4850 3500 50  0001 C CNN
+	1    4850 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5EB78E5B
+P 3500 3900
+F 0 "J1" H 3608 4081 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3608 3990 50  0000 C CNN
+F 2 "" H 3500 3900 50  0001 C CNN
+F 3 "~" H 3500 3900 50  0001 C CNN
+	1    3500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5EB7A85F
+P 5500 3850
+F 0 "SW1" V 5454 3998 50  0000 L CNN
+F 1 "Pushbutton" V 5545 3998 50  0000 L CNN
+F 2 "" H 5500 4050 50  0001 C CNN
+F 3 "~" H 5500 4050 50  0001 C CNN
+	1    5500 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 3900 4050 3900
+Wire Wire Line
+	4050 3900 4050 3500
+Wire Wire Line
+	4050 3500 4200 3500
+Wire Wire Line
+	4500 3500 4700 3500
+Wire Wire Line
+	5000 3500 5500 3500
+Wire Wire Line
+	5500 3500 5500 3650
+Wire Wire Line
+	5500 4050 4050 4050
+Wire Wire Line
+	4050 4050 4050 4000
+Wire Wire Line
+	4050 4000 3700 4000
+$EndSCHEMATC
