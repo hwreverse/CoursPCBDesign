@@ -434,9 +434,6 @@ Wire Notes Line
 	600  7450 600  6100
 Wire Wire Line
 	1250 6800 1000 6800
-Connection ~ 1000 6800
-Wire Wire Line
-	1000 6800 1000 7000
 Wire Wire Line
 	1250 6700 1000 6700
 Connection ~ 1000 6700
