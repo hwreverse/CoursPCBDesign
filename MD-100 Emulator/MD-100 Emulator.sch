@@ -473,4 +473,208 @@ Wire Wire Line
 	1250 1300 750  1300
 Wire Wire Line
 	1250 1200 1000 1200
+$Comp
+L 74xx:74HC00 U?
+U 1 1 5EBDC272
+P 5000 4200
+F 0 "U?" H 5000 3883 50  0000 C CNN
+F 1 "74HC00" H 5000 3974 50  0000 C CNN
+F 2 "" H 5000 4200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 5000 4200 50  0001 C CNN
+	1    5000 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74HC00 U?
+U 2 1 5EBE2FB7
+P 5000 5350
+F 0 "U?" H 5000 5033 50  0000 C CNN
+F 1 "74HC00" H 5000 5124 50  0000 C CNN
+F 2 "" H 5000 5350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 5000 5350 50  0001 C CNN
+	2    5000 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74HC00 U?
+U 3 1 5EBE8E3D
+P 5750 5650
+F 0 "U?" H 5750 5333 50  0000 C CNN
+F 1 "74HC00" H 5750 5424 50  0000 C CNN
+F 2 "" H 5750 5650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 5750 5650 50  0001 C CNN
+	3    5750 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74HC00 U?
+U 4 1 5EBEC491
+P 6550 5650
+F 0 "U?" H 6550 5333 50  0000 C CNN
+F 1 "74HC00" H 6550 5424 50  0000 C CNN
+F 2 "" H 6550 5650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 6550 5650 50  0001 C CNN
+	4    6550 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74HC00 U?
+U 5 1 5EBEE381
+P 3700 6800
+F 0 "U?" H 3930 6846 50  0000 L CNN
+F 1 "74HC00" H 3930 6755 50  0000 L CNN
+F 2 "" H 3700 6800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 3700 6800 50  0001 C CNN
+	5    3700 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5450 5400 5450
+Wire Wire Line
+	5400 5450 5400 5650
+Wire Wire Line
+	5400 5650 5450 5650
+Wire Wire Line
+	6050 5550 6150 5550
+Wire Wire Line
+	6050 5750 6150 5750
+Wire Wire Line
+	6150 5550 6150 5650
+Wire Wire Line
+	6150 5650 6250 5650
+Connection ~ 6150 5650
+Wire Wire Line
+	6150 5650 6150 5750
+Wire Wire Line
+	4700 5350 4400 5350
+Wire Wire Line
+	4400 5350 4400 4450
+Wire Wire Line
+	4700 4200 4400 4200
+$Comp
+L 74xx:74HC02 U?
+U 2 1 5EC153C3
+P 5750 3950
+F 0 "U?" H 5750 3633 50  0000 C CNN
+F 1 "74HC02" H 5750 3724 50  0000 C CNN
+F 2 "" H 5750 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc02" H 5750 3950 50  0001 C CNN
+	2    5750 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74HC02 U?
+U 1 1 5EC1C40E
+P 5750 4500
+F 0 "U?" H 5750 4183 50  0000 C CNN
+F 1 "74HC02" H 5750 4274 50  0000 C CNN
+F 2 "" H 5750 4500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc02" H 5750 4500 50  0001 C CNN
+	1    5750 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74HC02 U?
+U 4 1 5EC20EBA
+P 5750 5050
+F 0 "U?" H 5750 4733 50  0000 C CNN
+F 1 "74HC02" H 5750 4824 50  0000 C CNN
+F 2 "" H 5750 5050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc02" H 5750 5050 50  0001 C CNN
+	4    5750 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74HC02 U?
+U 3 1 5EC2C9B1
+P 6600 3850
+F 0 "U?" H 6600 3533 50  0000 C CNN
+F 1 "74HC02" H 6600 3624 50  0000 C CNN
+F 2 "" H 6600 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc02" H 6600 3850 50  0001 C CNN
+	3    6600 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74HC02 U?
+U 5 1 5EC31329
+P 4750 6800
+F 0 "U?" H 4980 6846 50  0000 L CNN
+F 1 "74HC02" H 4980 6755 50  0000 L CNN
+F 2 "" H 4750 6800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc02" H 4750 6800 50  0001 C CNN
+	5    4750 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5250 5400 5250
+Wire Wire Line
+	5400 5250 5400 5050
+Wire Wire Line
+	5400 5050 5450 5050
+Wire Wire Line
+	5300 4300 5400 4300
+Wire Wire Line
+	5400 4300 5400 4500
+Wire Wire Line
+	5400 4500 5450 4500
+Wire Wire Line
+	5300 4100 5400 4100
+Wire Wire Line
+	5400 4100 5400 3950
+Wire Wire Line
+	5400 3950 5450 3950
+Wire Wire Line
+	6050 3850 6300 3850
+Wire Wire Line
+	6900 3750 7000 3750
+Wire Wire Line
+	7000 3750 7000 3950
+Wire Wire Line
+	6900 3950 7000 3950
+Wire Wire Line
+	6050 4950 7000 4950
+Wire Wire Line
+	6050 5150 8300 5150
+Wire Wire Line
+	7000 3950 7000 4950
+Connection ~ 7000 3950
+Connection ~ 7000 4950
+Wire Wire Line
+	7000 4950 8300 4950
+Wire Wire Line
+	6850 5550 7100 5550
+Wire Wire Line
+	6850 5750 7200 5750
+Wire Wire Line
+	7200 5750 7200 4400
+Wire Wire Line
+	7200 4400 6050 4400
+Wire Wire Line
+	6050 4600 7100 4600
+Wire Wire Line
+	7100 4600 7100 5550
+Wire Wire Line
+	7100 5550 8300 5550
+Connection ~ 7100 5550
+Wire Wire Line
+	7200 4400 7200 3300
+Connection ~ 7200 4400
+Wire Wire Line
+	6050 4050 7250 4050
+Wire Wire Line
+	7250 4050 7250 4850
+Wire Wire Line
+	7250 4850 8300 4850
+$Comp
+L CoursPCB:CPB_Connector J?
+U 1 1 5ECAD4C5
+P 9500 3000
+F 0 "J?" H 9475 3965 50  0000 C CNN
+F 1 "CPB_Connector" H 9475 3874 50  0000 C CNN
+F 2 "" H 9300 3850 50  0001 C CNN
+F 3 "" H 9300 3850 50  0001 C CNN
+	1    9500 3000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
