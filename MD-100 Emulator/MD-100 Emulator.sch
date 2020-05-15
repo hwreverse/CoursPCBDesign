@@ -539,12 +539,6 @@ Wire Wire Line
 Connection ~ 5500 6250
 Wire Wire Line
 	5500 6250 5500 6350
-Wire Wire Line
-	4050 5950 3750 5950
-Wire Wire Line
-	3750 5950 3750 5050
-Wire Wire Line
-	4050 4800 3750 4800
 $Comp
 L 74xx:74HC02 U6
 U 2 1 5EC153C3
@@ -651,9 +645,6 @@ Wire Wire Line
 Wire Wire Line
 	6450 6150 7650 6150
 Connection ~ 6450 6150
-Wire Wire Line
-	6550 5000 6550 3900
-Connection ~ 6550 5000
 Wire Wire Line
 	5400 4650 6600 4650
 Wire Wire Line
@@ -1052,4 +1043,138 @@ F 3 "" H 4300 7550 50  0001 C CNN
 	1    4300 7550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4050 4800 3850 4800
+Wire Wire Line
+	4050 5950 3950 5950
+Wire Wire Line
+	3950 5950 3950 4950
+Wire Wire Line
+	3950 4950 3850 4950
+Text GLabel 3850 4950 0    50   Output ~ 0
+ULA0
+Text GLabel 3850 4800 0    50   Output ~ 0
+ULA1
+Text GLabel 3850 2850 0    50   Input ~ 0
+ULA0
+Text GLabel 3850 2950 0    50   Input ~ 0
+ULA1
+Text GLabel 10200 1650 2    50   Output ~ 0
+CS7
+Text GLabel 3850 3050 0    50   Input ~ 0
+CS7
+Wire Wire Line
+	6450 5200 6450 4250
+Connection ~ 6450 5200
+Wire Wire Line
+	10200 2150 10350 2150
+Wire Wire Line
+	10200 2050 10350 2050
+Wire Wire Line
+	10200 1950 10350 1950
+Wire Wire Line
+	10200 1850 10350 1850
+Wire Wire Line
+	10200 2250 10350 2250
+Wire Wire Line
+	10200 2350 10350 2350
+Wire Wire Line
+	9550 2350 9350 2350
+Wire Wire Line
+	9550 2250 9350 2250
+Entry Wire Line
+	9350 2250 9250 2350
+Entry Wire Line
+	9350 2350 9250 2450
+Entry Wire Line
+	10350 2350 10450 2450
+Entry Wire Line
+	10350 2250 10450 2350
+Entry Wire Line
+	10350 2150 10450 2250
+Entry Wire Line
+	10350 2050 10450 2150
+Entry Wire Line
+	10350 1950 10450 2050
+Entry Wire Line
+	10350 1850 10450 1950
+Wire Wire Line
+	3850 1950 3700 1950
+Wire Wire Line
+	3850 2050 3700 2050
+Wire Wire Line
+	3850 2150 3700 2150
+Wire Wire Line
+	3850 2250 3700 2250
+Wire Wire Line
+	3850 2350 3700 2350
+Wire Wire Line
+	3850 2450 3700 2450
+Wire Wire Line
+	3850 2550 3700 2550
+Wire Wire Line
+	3850 2650 3700 2650
+Entry Wire Line
+	3700 1950 3600 2050
+Entry Wire Line
+	3700 2050 3600 2150
+Entry Wire Line
+	3700 2150 3600 2250
+Entry Wire Line
+	3700 2250 3600 2350
+Entry Wire Line
+	3700 2350 3600 2450
+Entry Wire Line
+	3700 2450 3600 2550
+Entry Wire Line
+	3700 2550 3600 2650
+Entry Wire Line
+	3700 2650 3600 2750
+Wire Bus Line
+	10450 3250 9250 3250
+Wire Bus Line
+	3600 3700 9250 3700
+Wire Bus Line
+	9250 3700 9250 3250
+Wire Bus Line
+	9250 2350 9250 3250
+Wire Bus Line
+	10450 1950 10450 3250
+Wire Bus Line
+	3600 2050 3600 3700
+Connection ~ 9250 3250
+Text Label 10250 2150 0    50   ~ 0
+D0
+Text Label 10250 2050 0    50   ~ 0
+D4
+Text Label 10250 1950 0    50   ~ 0
+D6
+Text Label 10250 1850 0    50   ~ 0
+D1
+Text Label 10250 2250 0    50   ~ 0
+D7
+Text Label 10250 2350 0    50   ~ 0
+D3
+Text Label 9350 2350 0    50   ~ 0
+D2
+Text Label 9350 2250 0    50   ~ 0
+D5
+Text Label 3700 1950 0    50   ~ 0
+D0
+Text Label 3700 2050 0    50   ~ 0
+D1
+Text Label 3700 2150 0    50   ~ 0
+D2
+Text Label 3700 2250 0    50   ~ 0
+D3
+Text Label 3700 2350 0    50   ~ 0
+D4
+Text Label 3700 2450 0    50   ~ 0
+D5
+Text Label 3700 2550 0    50   ~ 0
+D6
+Text Label 3700 2650 0    50   ~ 0
+D7
+Text Label 9650 3250 0    50   ~ 0
+DATABus
 $EndSCHEMATC
