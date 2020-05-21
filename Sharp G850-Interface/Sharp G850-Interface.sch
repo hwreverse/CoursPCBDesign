@@ -427,9 +427,6 @@ Text GLabel 10050 1600 0    50   Output ~ 0
 TXCalc
 Text GLabel 10050 1800 0    50   Input ~ 0
 CTSCalc
-NoConn ~ 10050 1400
-NoConn ~ 10050 1700
-NoConn ~ 10050 1900
 $Comp
 L Device:R R6
 U 1 1 5EBCF700
@@ -633,7 +630,6 @@ F 3 "" H 4600 4400 50  0001 C CNN
 	1    4600 4400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10050 1100
 Wire Wire Line
 	5200 3500 4850 3500
 Wire Wire Line
@@ -649,7 +645,6 @@ F 3 "" H 4850 3450 50  0001 C CNN
 	1    4850 3450
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10050 1000
 $Comp
 L Connector:Conn_01x11_Male J2
 U 1 1 5EBA322F
@@ -661,7 +656,6 @@ F 3 "~" H 10250 1500 50  0001 C CNN
 	1    10250 1500
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 10050 2000
 Wire Wire Line
 	3800 1650 3750 1650
 Connection ~ 3750 1650
@@ -711,23 +705,6 @@ Text GLabel 10050 2850 0    50   Output ~ 0
 TXCalc
 Text GLabel 10050 3050 0    50   Input ~ 0
 CTSCalc
-NoConn ~ 10050 2650
-NoConn ~ 10050 2950
-NoConn ~ 10050 3150
-NoConn ~ 10050 2350
-NoConn ~ 10050 2250
-$Comp
-L Connector:Conn_01x11_Male J3
-U 1 1 5EC5BD70
-P 10250 2750
-F 0 "J3" H 10222 2774 50  0000 R CNN
-F 1 "Conn_01x11_Male" H 10222 2683 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical" H 10250 2750 50  0001 C CNN
-F 3 "~" H 10250 2750 50  0001 C CNN
-	1    10250 2750
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 10050 3250
 $Comp
 L Device:Ferrite_Bead_Small FB1
 U 1 1 5EC5F7C4
@@ -752,4 +729,39 @@ Text Label 4150 3100 0    50   ~ 0
 USBD+
 Text Label 4150 3200 0    50   ~ 0
 USBD-
+$Comp
+L Connector:Conn_01x11_Male J3
+U 1 1 5EC5BD70
+P 10250 2750
+F 0 "J3" H 10222 2774 50  0000 R CNN
+F 1 "Conn_01x11_Male" H 10222 2683 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical" H 10250 2750 50  0001 C CNN
+F 3 "~" H 10250 2750 50  0001 C CNN
+	1    10250 2750
+	-1   0    0    -1  
+$EndComp
+Text GLabel 10050 1000 0    50   UnSpc ~ 0
+FG
+Text GLabel 10050 1100 0    50   UnSpc ~ 0
+VCCCalc
+Text GLabel 10050 1400 0    50   UnSpc ~ 0
+DTRCalc
+Text GLabel 10050 1700 0    50   UnSpc ~ 0
+CDCalc
+Text GLabel 10050 1900 0    50   UnSpc ~ 0
+DSRCalc
+Text GLabel 10050 2000 0    50   UnSpc ~ 0
+CICalc
+Text GLabel 10050 2250 0    50   UnSpc ~ 0
+FG
+Text GLabel 10050 2350 0    50   UnSpc ~ 0
+VCCCalc
+Text GLabel 10050 2650 0    50   UnSpc ~ 0
+DTRCalc
+Text GLabel 10050 2950 0    50   UnSpc ~ 0
+CDCalc
+Text GLabel 10050 3150 0    50   UnSpc ~ 0
+DSRCalc
+Text GLabel 10050 3250 0    50   UnSpc ~ 0
+CICalc
 $EndSCHEMATC

@@ -744,4 +744,12 @@ Wire Wire Line
 Wire Wire Line
 	2650 1350 2800 1350
 Connection ~ 2800 1350
+Text Label 3150 3100 0    50   ~ 0
+D+
+Text Label 3150 3200 0    50   ~ 0
+D-
+Text Label 4150 3100 0    50   ~ 0
+USBD+
+Text Label 4150 3200 0    50   ~ 0
+USBD-
 $EndSCHEMATC
