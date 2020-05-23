@@ -1825,7 +1825,7 @@ Text Notes 7550 1300 0    50   ~ 0
 Trous de Montage
 Text Notes 4100 6800 0    50   ~ 0
 CPB
-Text Notes 4850 6800 0    50   ~ 0
+Text Notes 4900 6750 0    50   ~ 0
 uC
 Wire Wire Line
 	750  1300 750  1750
@@ -1851,10 +1851,31 @@ Wire Wire Line
 Connection ~ 1000 4900
 Wire Wire Line
 	750  4800 1250 4800
+$Comp
+L Device:C_Small C8
+U 1 1 5ECA4337
+P 5150 6950
+F 0 "C8" H 5242 6996 50  0000 L CNN
+F 1 "0.1uF" H 5242 6905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5150 6950 50  0001 C CNN
+F 3 "~" H 5150 6950 50  0001 C CNN
+	1    5150 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 6800 5150 6800
+Wire Wire Line
+	5150 6800 5150 6850
+Wire Wire Line
+	5150 7050 5150 7100
+Wire Wire Line
+	5150 7100 4750 7100
 Wire Bus Line
 	9500 2750 9500 3650
 Wire Bus Line
 	10700 2350 10700 3650
 Wire Bus Line
 	3750 2550 3750 3750
+Text Notes 9400 1350 0    50   ~ 0
+Epaisseur du PCB doit être 0.8mm
 $EndSCHEMATC
