@@ -1,0 +1,98 @@
+
+(rules PCB MD-100 Emulator4gp
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 3589)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.3)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.8)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-pwr" "Via[0-1]_800:400_um" pwr
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    pwr "Via[0-1]_800:400_um-pwr"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(C3-Pad1)" "Net-(C4-Pad1)" "Net-(C5-Pad1)" "Net-(D1-Pad1)" "Net-(D2-Pad3)" P4 P2 P0
+    /D3 /D7 /D0 /D4 /D6 /D1 A1 CS7
+    P3 WR /D2 /D5 RD A2 A0 PGC
+    PGD ~MCLR "Net-(Q1-Pad1)" "Net-(R10-Pad1)" "Net-(R12-Pad1)" "Net-(R16-Pad1)" "Net-(U5-Pad10)" "Net-(U5-Pad4)"
+    ULA0 "Net-(U5-Pad5)" ULA1 "Net-(U5-Pad2)" "Net-(U5-Pad1)" "Net-(U6-Pad10)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class pwr
+    GND VCC SCL SDA VDD /EE1D /EE1C /EE2D
+    /EE2C /EE3D /EE3C /EE4D /EE4C /uCD /uCC
+    (clearance_class pwr)
+    (via_rule pwr)
+    (rule
+      (width 400.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

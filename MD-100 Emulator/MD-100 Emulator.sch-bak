@@ -19,7 +19,7 @@ U 1 1 5EB9A07C
 P 1650 1300
 F 0 "U1" H 1750 1550 50  0000 C CNN
 F 1 "24LC1025" H 1400 1050 50  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 1650 1300 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1650 1300 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf" H 1650 1300 50  0001 C CNN
 	1    1650 1300
 	1    0    0    -1  
@@ -89,7 +89,7 @@ U 1 1 5EBC2B3A
 P 1650 3100
 F 0 "U2" H 1750 3350 50  0000 C CNN
 F 1 "24LC1025" H 1400 2850 50  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 1650 3100 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1650 3100 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf" H 1650 3100 50  0001 C CNN
 	1    1650 3100
 	1    0    0    -1  
@@ -161,7 +161,7 @@ U 1 1 5EBC4AD7
 P 1650 4900
 F 0 "U3" H 1750 5150 50  0000 C CNN
 F 1 "24LC1025" H 1400 4650 50  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 1650 4900 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1650 4900 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf" H 1650 4900 50  0001 C CNN
 	1    1650 4900
 	1    0    0    -1  
@@ -233,7 +233,7 @@ U 1 1 5EBC9DFB
 P 1650 6750
 F 0 "U4" H 1750 7000 50  0000 C CNN
 F 1 "24LC1025" H 1400 6500 50  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 1650 6750 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1650 6750 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf" H 1650 6750 50  0001 C CNN
 	1    1650 6750
 	1    0    0    -1  
@@ -926,13 +926,13 @@ DATA
 $Comp
 L Connector:Conn_01x04_Male J2
 U 1 1 5EC1FA78
-P 4050 5550
-F 0 "J2" H 4158 5831 50  0000 C CNN
-F 1 "I2CConn" H 4158 5740 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 4050 5550 50  0001 C CNN
-F 3 "~" H 4050 5550 50  0001 C CNN
-	1    4050 5550
-	-1   0    0    -1  
+P 4050 5650
+F 0 "J2" H 4158 5931 50  0000 C CNN
+F 1 "I2CConn" H 4158 5840 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 4050 5650 50  0001 C CNN
+F 3 "~" H 4050 5650 50  0001 C CNN
+	1    4050 5650
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3850 5750 3750 5750
@@ -1509,17 +1509,6 @@ F 3 "~" H 4750 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0102
-U 1 1 5EC2EBDD
-P 4750 7100
-F 0 "#FLG0102" H 4750 7175 50  0001 C CNN
-F 1 "PWR_FLAG" V 4750 7228 50  0001 L CNN
-F 2 "" H 4750 7100 50  0001 C CNN
-F 3 "~" H 4750 7100 50  0001 C CNN
-	1    4750 7100
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:C_Small C1
 U 1 1 5EC85C69
 P 4300 6950
@@ -1528,17 +1517,6 @@ F 1 "10uF" H 4100 6850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4300 6950 50  0001 C CNN
 F 3 "~" H 4300 6950 50  0001 C CNN
 	1    4300 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 5EC86427
-P 4750 6950
-F 0 "C2" H 4842 6996 50  0000 L CNN
-F 1 "0.1uF" H 4842 6905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4750 6950 50  0001 C CNN
-F 3 "~" H 4750 6950 50  0001 C CNN
-	1    4750 6950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1636,17 +1614,6 @@ Wire Wire Line
 Connection ~ 9650 3350
 Wire Wire Line
 	9650 3350 9650 3450
-$Comp
-L power:PWR_FLAG #FLG0103
-U 1 1 5EEFB95C
-P 5100 1250
-F 0 "#FLG0103" H 5100 1325 50  0001 C CNN
-F 1 "PWR_FLAG" V 5100 1378 50  0000 L CNN
-F 2 "" H 5100 1250 50  0001 C CNN
-F 3 "~" H 5100 1250 50  0001 C CNN
-	1    5100 1250
-	0    1    1    0   
-$EndComp
 Connection ~ 5100 1250
 Wire Notes Line
 	4550 5300 4550 6100
@@ -1789,25 +1756,18 @@ Wire Wire Line
 Wire Wire Line
 	8700 3450 8850 3450
 Connection ~ 8850 3450
-Wire Wire Line
-	4750 6800 4500 6800
 Connection ~ 4750 6800
 Connection ~ 4300 6800
 Wire Wire Line
 	4300 6800 4300 6850
 Wire Wire Line
 	4500 6850 4500 6800
-Connection ~ 4500 6800
 Wire Wire Line
 	4500 6800 4300 6800
 Wire Wire Line
 	4500 7050 4500 7100
 Wire Wire Line
-	4500 7100 4750 7100
-Connection ~ 4750 7100
-Wire Wire Line
 	4500 7100 4300 7100
-Connection ~ 4500 7100
 Connection ~ 4300 7100
 Wire Wire Line
 	4300 7100 4300 7200
@@ -1870,12 +1830,88 @@ Wire Wire Line
 	5150 7050 5150 7100
 Wire Wire Line
 	5150 7100 4750 7100
+Text Notes 9400 1350 0    50   ~ 0
+Epaisseur du PCB doit être 0.8mm
+Text Label 4900 1250 0    50   ~ 0
+VDD
+$Comp
+L Device:C_Small C2
+U 1 1 5EC86427
+P 4750 6950
+F 0 "C2" H 4842 6996 50  0000 L CNN
+F 1 "0.1uF" H 4842 6905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4750 6950 50  0001 C CNN
+F 3 "~" H 4750 6950 50  0001 C CNN
+	1    4750 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5ECD5B0D
+P 4500 6800
+F 0 "#FLG0104" H 4500 6875 50  0001 C CNN
+F 1 "PWR_FLAG" V 4500 6928 50  0001 L CNN
+F 2 "" H 4500 6800 50  0001 C CNN
+F 3 "~" H 4500 6800 50  0001 C CNN
+	1    4500 6800
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 6800
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 5ECD6382
+P 4500 7100
+F 0 "#FLG0105" H 4500 7175 50  0001 C CNN
+F 1 "PWR_FLAG" V 4500 7228 50  0001 L CNN
+F 2 "" H 4500 7100 50  0001 C CNN
+F 3 "~" H 4500 7100 50  0001 C CNN
+	1    4500 7100
+	-1   0    0    1   
+$EndComp
+Connection ~ 4500 7100
+Wire Wire Line
+	5150 6800 5150 6700
+Connection ~ 5150 6800
+Wire Wire Line
+	5150 7100 5150 7200
+Connection ~ 5150 7100
+$Comp
+L power:GND #PWR0101
+U 1 1 5ECF72A6
+P 5150 7200
+F 0 "#PWR0101" H 5150 6950 50  0001 C CNN
+F 1 "GND" H 5155 7027 50  0000 C CNN
+F 2 "" H 5150 7200 50  0001 C CNN
+F 3 "" H 5150 7200 50  0001 C CNN
+	1    5150 7200
+	1    0    0    -1  
+$EndComp
+Text GLabel 5150 6700 1    50   UnSpc ~ 0
+VDD
+Text GLabel 5100 1150 1    50   UnSpc ~ 0
+VDD
+Wire Wire Line
+	5100 1150 5100 1250
+Text Label 2100 1200 0    50   ~ 0
+EE1D
+Text Label 2100 1300 0    50   ~ 0
+EE1C
+Text Label 2100 3000 0    50   ~ 0
+EE2D
+Text Label 2100 3100 0    50   ~ 0
+EE2C
+Text Label 2100 4800 0    50   ~ 0
+EE3D
+Text Label 2100 4900 0    50   ~ 0
+EE3C
+Text Label 2100 6650 0    50   ~ 0
+EE4D
+Text Label 2100 6750 0    50   ~ 0
+EE4C
 Wire Bus Line
 	9500 2750 9500 3650
 Wire Bus Line
 	10700 2350 10700 3650
 Wire Bus Line
 	3750 2550 3750 3750
-Text Notes 9400 1350 0    50   ~ 0
-Epaisseur du PCB doit être 0.8mm
 $EndSCHEMATC
