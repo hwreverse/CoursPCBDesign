@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name porcschema)(type Legacy)(uri ${KIPRJMOD}/porcschema.lib)(options "")(descr ""))
+  (lib (name porcschema2)(type Legacy)(uri ${KIPRJMOD}/porcschema2.lib)(options "")(descr ""))
+)
