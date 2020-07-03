@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 68)
+    (drawings 66)
     (tracks 372)
     (zones 0)
     (modules 35)
@@ -170,7 +170,7 @@
     (descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x08 2.54mm single row")
     (path /5F3CCD1E)
-    (fp_text reference J8 (at 0 -2.33 90) (layer F.SilkS) hide
+    (fp_text reference J8 (at 0 -2.33 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x08_Male (at 0 20.11 90) (layer F.Fab)
@@ -212,7 +212,7 @@
     (descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x08 2.54mm single row")
     (path /5F3CB56A)
-    (fp_text reference J15 (at 0 -2.33 90) (layer F.SilkS) hide
+    (fp_text reference J15 (at 0 -2.33 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x08_Male (at 0 20.11 90) (layer F.Fab)
@@ -254,7 +254,7 @@
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /5F3CE10E)
-    (fp_text reference J6 (at 0 -2.33 90) (layer F.SilkS) hide
+    (fp_text reference J6 (at 0 -2.33 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x04_Male (at 0 9.95 90) (layer F.Fab)
@@ -294,7 +294,7 @@
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /5F3C9C60)
-    (fp_text reference J16 (at 0 -2.33 90) (layer F.SilkS) hide
+    (fp_text reference J16 (at 0 -2.33 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x04_Male (at 0 9.95 90) (layer F.Fab)
@@ -1770,12 +1770,6 @@
     )
   )
 
-  (gr_text GND- (at 127.889 125.73) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (gr_text GND- (at 150.749 125.73) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
   (gr_text YMISOL (at 109.601 119.507 90) (layer F.SilkS) (tstamp 5F0031DA)
     (effects (font (size 1 0.8) (thickness 0.15)))
   )
